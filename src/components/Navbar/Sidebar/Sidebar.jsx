@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
-import { useProSidebar } from "react-pro-sidebar";
+import { Sidebar, Menu, MenuItem, useProSidebar } from "react-pro-sidebar";
+
 import { useSidebarContext } from "./SidebarProvider";
 
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
@@ -21,7 +21,6 @@ import {
   SwitchRightOutlined,
   SwitchLeftOutlined,
   SensorsOutlined,
-  DatasetOutlined,
 } from "@mui/icons-material";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
@@ -31,9 +30,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
   return (
     <MenuItem
       active={selected === title}
-      style={{
-        color: colors.grey[100],
-      }}
+      style={{ color: colors.grey[100] }}
       onClick={() => setSelected(title)}
       icon={icon}
       routerLink={<Link to={to} />}
@@ -170,13 +167,6 @@ const ProSidebar = () => {
               title="Sensor"
               to="/sensor"
               icon={<SensorsOutlined />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="Data"
-              to="/data"
-              icon={<DatasetOutlined />}
               selected={selected}
               setSelected={setSelected}
             />

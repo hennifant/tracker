@@ -1,0 +1,124 @@
+{
+  "device": [
+    {
+      "id": 1,
+      "name": "Device 1",
+      "type": "LEVER_SWITCH",
+      "settings": {
+        "comment": "moin moin"
+      },
+      "data": {
+        "ipAddress": "192.168.0.1"
+      },
+      "lastUpdated": "2023-02-23 T13:40:19.000+0000"
+    },
+    {
+      "id": 2,
+      "name": "Device 2",
+      "type": "LEVER_SWITCH",
+      "settings": {
+        "comment": "läuft"
+      },
+      "data": {
+        "ipAddress": "192.168.0.2"
+      },
+      "lastUpdated": "2023-02-23 T13:41:19.000+0000"
+    },
+    {
+      "id": 3,
+      "name": "Device 3",
+      "type": "LEVER_SWITCH",
+      "settings": {
+        "comment": "1a"
+      },
+      "data": {
+        "ipAddress": "192.168.0.3"
+      },
+      "lastUpdated": "2023-02-23 T13:42:19.000+0000"
+    },
+    {
+      "id": 4,
+      "name": "Device 4",
+      "type": "LEVER_SWITCH",
+      "settings": {
+        "comment": "fein"
+      },
+      "data": {
+        "ipAddress": "192.168.0.4"
+      },
+      "lastUpdated": "2023-02-23 T13:43:19.000+0000"
+    },
+    {
+      "id": 5,
+      "name": "Device 5",
+      "type": "LEVER_SWITCH",
+      "settings": {
+        "comment": "klasse"
+      },
+      "data": {
+        "ipAddress": "192.168.0.5"
+      },
+      "lastUpdated": "2023-02-23 T13:44:19.000+0000"
+    },
+    {
+      "id": 6,
+      "name": "Device 6",
+      "type": "LEVER_SWITCH",
+      "settings": {
+        "comment": "super"
+      },
+      "data": {
+        "ipAddress": "192.168.0.6"
+      },
+      "lastUpdated": "2023-02-23 T13:45:19.000+0000"
+    },
+    {
+      "id": 7,
+      "name": "Device 7",
+      "type": "LEVER_SWITCH",
+      "settings": {
+        "comment": "exakt"
+      },
+      "data": {
+        "ipAddress": "192.168.0.7"
+      },
+      "lastUpdated": "2023-02-23 T13:46:19.000+0000"
+    },
+    {
+      "id": 8,
+      "name": "Device 8",
+      "type": "LEVER_SWITCH",
+      "settings": {
+        "comment": "wunderbar"
+      },
+      "data": {
+        "ipAddress": "192.168.0.8"
+      },
+      "lastUpdated": "2023-02-23T 13:47:19.000+0000"
+    },
+    {
+      "id": 9,
+      "name": "Device 9",
+      "type": "LEVER_SWITCH",
+      "settings": {
+        "comment": "awesome"
+      },
+      "data": {
+        "ipAddress": "192.168.0.9"
+      },
+      "lastUpdated": "2023-02-23 T13:48:19.000+0000"
+    },
+    {
+      "id": 10,
+      "name": "Device 10",
+      "type": "LEVER_SWITCH",
+      "settings": {
+        "comment": "top"
+      },
+      "data": {
+        "ipAddress": "192.168.0.10"
+      },
+      "lastUpdated": "2023-02-23 T13:49:19.000+0000"
+    }
+  ]
+}
